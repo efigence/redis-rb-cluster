@@ -617,7 +617,7 @@ class RedisCluster
   end
 
   def zremrangebyscore(key, start, stop)
-    send_cluster_command([:zremrangebystore, key, start, stop])
+    send_cluster_command([:zremrangebyscore, key, start, stop])
   end
 
   def zrevrange(key, start, stop, options = {})

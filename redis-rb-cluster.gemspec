@@ -15,4 +15,5 @@ Gem::Specification.new do |s|
     s.add_runtime_dependency 'connection_pool', '~> 2.2', '>= 2.2.0'
     s.add_runtime_dependency 'redis', '~> 3.2', '>= 3.2.1'
     s.add_development_dependency 'test-unit', '~> 3.1'
+    s.add_development_dependency 'rake', '~> 10.4'
 end
